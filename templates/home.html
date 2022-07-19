@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background: #f7f7f7;
+            border-right: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav a{
+          display: inline-block;
+          text-decoration: none;
+          padding: 5px 15px;
+          font-size: 0.9em;
+          font-weight: bold;
+          color: #222c6a;
+          text-transform: uppercase;
+          letter-spacing: 0.05 em;
+        }
+
+        nav a:hover{
+          color: #009879;
+        }
+
+        main{
+            margin-left: 250px;
+            padding: 10px;
+        }
+
+        .size{
+          width: 70%;
+          display: block;
+          margin-bottom: 35px;
+        }
+
+        .img_head{
+          border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img class = "size img_head" src="{{url_for('static', filename='headshot.jpeg')}}">
+        <a href ="#">Home</a>
+        <a href ="#">LinkedIn</a>
+        <a href ="#">Github</a>
+        <a href ="#">Socials</a>
+    </nav>
+
+    <main>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+        <h1>this is the first bit of information</h1>
+
+    </main>
+    
+    
+</body>
+</html>
